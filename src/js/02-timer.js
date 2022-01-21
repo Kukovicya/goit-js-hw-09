@@ -65,7 +65,7 @@ startB.addEventListener('click', event => {
     if (convertedDate.seconds == 0) {
       clearInterval(setIntervalForTimer);
       body.style.backgroundColor = 'red';
-      Notiflix.Notify.failure('Time is over!!!');
+      Notiflix.Notify.failure('Time is over!!!!!!!!!');
       //   return;
     }
     document.querySelector('span[data-days]').textContent = addLeadingZero(convertedDate.days);
